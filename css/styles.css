@@ -51,6 +51,23 @@ h1 {
     background-color: navajowhite;
 }
 
+.all-founders h1 {
+    margin-top: 20px;
+}
+.founders {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.founders img {
+    width: 20%;
+}
+
+.founders-names {
+    display: flex;
+    gap: 14rem;
+}
+
 .about-founder {
     padding-top: 20px;
 }
