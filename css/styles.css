@@ -48,11 +48,22 @@ h1 {
 }
 
 .locate {
+    display: flex;
+    gap: 1rem;
     background-color: navajowhite;
 }
 
+.locate img{
+     width: 13.5%;
+}
+
+.location-names {
+    display: flex;
+    gap: 14rem;
+}
+
 .all-founders h1 {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .founders {
     display: flex;

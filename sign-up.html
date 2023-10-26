@@ -19,6 +19,10 @@
 		button:hover{
 			background-color: violet;
 		}
+
+		#Surname, #Age, #Date-of-birth, #Password, #Are-you-a-student, #Language, #About-yourself {
+			margin-top: 2rem;
+		} 
 	</style>
 
 </head>
@@ -47,7 +51,7 @@
       </div>
 
 
-      <div>
+      <div id="Date-of-birth">
 		    	<label>Date of birth</label>
 		    	<br>
 		    	<input type="Date" name="Date-of-birth">
@@ -62,7 +66,7 @@
 
 
       <div id="Are-you-a-student">
-		    	<label>Are you a student</label>
+		    	<label>Were you a student else where</label>
 		    	<br>
 		    	<label>Yes</label>
 		    	<input type="radio" name="Are-you-a-student" value="Yes">
@@ -73,24 +77,24 @@
       </div>
 
       <div id="Language">
-	      	<label>Language</label>
+	      	<label>What languages do you speak</label>
 	    	   <br>
 	    	   <span>
-	    	   	<input type="checkbox" name="">English
+	    	   	<input type="checkbox" name="English">English
 	    	   </span>
 	    	   <span>
-	    	   	<input type="checkbox" name="">Ewe
+	    	   	<input type="checkbox" name="Spanish">Spanish
 	    	   </span>
 	    	   <span>
-	    	   	<input type="checkbox" name="">Twi
+	    	   	<input type="checkbox" name="French">French
 	    	   </span>
 	    	   <span>
-	    	   	<input type="checkbox" name="">French
+	    	   	<input type="checkbox" name="Others">Others
 	    	   </span>
       </div>
 
-      <div id="Favourite food">
-      	<label>What food do you like best?</label>
+      <!-- <div id="Favourite food">
+      	<label>What is your favourite food</label>
       	<br>
          <select name="Lunch">
          	<option value="Pizza">Pizza</option>
@@ -99,9 +103,9 @@
          	<option value="Friedrice">Friedrice</option>
          	<option value="Noodles">Noodles</option>
          </select>
-      </div>
+      </div> -->
 
-      <div id="Favourite-movie">
+      <!-- <div id="Favourite-movie">
       	<label>What movie do you like best?</label>
       	<br>
       	<input type="text" name="movie" list="movies" required>
@@ -111,10 +115,10 @@
       		<option value="Blacklist"></option>
       		<option value="Boss-Baby"></option>
       	</datalist>
-      </div>
+      </div> -->
 
       <div id="About-yourself">
-      	<label>About yourself</label>
+      	<label>Tell us about yourself</label>
       	<br>
       	<textarea name="about-yourself" rows="6" cols="40" minlength="10" maxlength="250">We want to know more about you</textarea>
       </div>
